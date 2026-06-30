@@ -1,5 +1,5 @@
-title: Theo!
-description: Portfolio for the cool stuff I have done
+title: Theo
+description: All of the various cool things I have done
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme 
