@@ -1,3 +1,5 @@
 title: Theo!
 description: Portfolio for the cool stuff I have done
-theme: minimal
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme 
