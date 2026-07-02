@@ -6,23 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>default | Theo!</title>
+<title>default | Theo</title>
 <meta name="generator" content="Jekyll v3.10.0" />
 <meta property="og:title" content="default" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Portfolio for the cool stuff I have done" />
-<meta property="og:description" content="Portfolio for the cool stuff I have done" />
+<meta name="description" content="All of the various cool things I have done" />
+<meta property="og:description" content="All of the various cool things I have done" />
 <link rel="canonical" href="http://localhost:4000/" />
 <meta property="og:url" content="http://localhost:4000/" />
-<meta property="og:site_name" content="Theo!" />
+<meta property="og:site_name" content="Theo" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="default" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Portfolio for the cool stuff I have done","headline":"default","name":"Theo!","url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","description":"All of the various cool things I have done","headline":"default","name":"Theo","url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=e2f91553374f78d52e7c90596b80a5d32f189b63">
+    <link rel="stylesheet" href="/assets/css/style.css?v=a27d09421678a662f2712cb6377485ce0ec599ca">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -41,11 +41,12 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="http://localhost:4000/">Theo!</a></h1>
+        <h1><a href="http://localhost:4000/">Theo</a></h1>
 
         
 
-        <p>Portfolio for the cool stuff I have done</p>
+        <div class="description"><p>All of the various cool things I have done</p>
+</div>
 
         
         <p class="view"><a href="https://github.com/tbarnescole/tbarnescole.github.io">View the Project on GitHub <small>tbarnescole/tbarnescole.github.io</small></a></p>
@@ -58,18 +59,68 @@
       <section>
 
       <h2 id="projects">Projects:</h2>
+<hr />
+<style>
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-top: 1rem;
+  align-items: start;
+  justify-items: start;
+}
 
-<h3 id="guitar-testing-robot"><a href="./MQP.html">Guitar testing robot</a></h3>
-<p><img src="./images/MQP/215.jpg" alt="MQP" class="thumbnail" width="200" /></p>
+.project-item {
+  text-align: left;
+}
 
-<h3 id="freelance-and-personal-projects"><a href="./personal_proj.html">Freelance and personal projects</a></h3>
-<p><img src="./images/Projects/IMG_2748.JPEG" alt="Phonemount" class="thumbnail" width="200" /></p>
+.project-item p {
+  margin-bottom: 0.5rem;
+}
 
-<h3 id="high-school-robotics"><a href="./robots.html">High school robotics</a></h3>
-<p><img src="./images/Real%20robots/IMG_1799.JPEG" alt="HSRobot" class="thumbnail" width="200" /></p>
+@media (max-width: 600px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
 
-<h3 id="high-school-robotics-cad-competitions"><a href="./CAD.html">High school robotics CAD competitions</a></h3>
-<p><img src="./images/CADathon/IMG_2018.JPEG" alt="CAD" class="thumbnail" width="200" /></p>
+.thumbnail {
+  border-radius: 5px;
+  width: 400px;
+  height: auto;
+}
+
+</style>
+
+<div class="project-grid">
+  <div class="project-item">
+    <p><strong>Guitar testing robot</strong></p>
+    <a href="./MQP.html">
+      <img src="./images/MQP/218.jpg" alt="MQP" class="thumbnail" />
+    </a>
+  </div>
+
+  <div class="project-item">
+    <p><strong>Freelance and personal projects</strong></p>
+    <a href="./personal_proj.html">
+      <img src="./images/Projects/IMG_2748.JPEG" alt="Phonemount" class="thumbnail" />
+    </a>
+  </div>
+
+  <div class="project-item">
+    <p><strong>High school robotics</strong></p>
+    <a href="./robots.html">
+      <img src="./images/Real%20robots/IMG_1799.JPEG" alt="HSRobot" class="thumbnail" />
+    </a>
+  </div>
+
+  <div class="project-item">
+    <p><strong>CAD competitions</strong></p>
+    <a href="./CAD.html">
+      <img src="./images/CADathon/IMG_2018.JPEG" alt="CAD" class="thumbnail" />
+    </a>
+  </div>
+</div>
 
 
       </section>
