@@ -10,8 +10,8 @@
 <meta name="generator" content="Jekyll v3.10.0" />
 <meta property="og:title" content="Home" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="All of the various cool things I have done" />
-<meta property="og:description" content="All of the various cool things I have done" />
+<meta name="description" content="I have done a variety of less-structured design work, including several personal projects and ideas I have worked on, in addition to some freelance work." />
+<meta property="og:description" content="I have done a variety of less-structured design work, including several personal projects and ideas I have worked on, in addition to some freelance work." />
 <link rel="canonical" href="http://localhost:4000/personal_proj.html" />
 <meta property="og:url" content="http://localhost:4000/personal_proj.html" />
 <meta property="og:site_name" content="Theo" />
@@ -19,10 +19,10 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Home" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"All of the various cool things I have done","headline":"Home","url":"http://localhost:4000/personal_proj.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"I have done a variety of less-structured design work, including several personal projects and ideas I have worked on, in addition to some freelance work.","headline":"Home","url":"http://localhost:4000/personal_proj.html"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=a27d09421678a662f2712cb6377485ce0ec599ca">
+    <link rel="stylesheet" href="/assets/css/style.css?v=8aa51b710b91d51597ab92041c1a130d446f0d20">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -45,12 +45,12 @@
 
         
 
-        <div class="description"><p>All of the various cool things I have done</p>
+        <div class="description"><p>I have done a variety of less-structured design work, including several personal projects and ideas I have worked on, in addition to some freelance work.</p>
 </div>
 
-        
+        <!-- 
         <p class="view"><a href="https://github.com/tbarnescole/tbarnescole.github.io">View the Project on GitHub <small>tbarnescole/tbarnescole.github.io</small></a></p>
-        
+         -->
 
         
 
@@ -61,12 +61,77 @@
       <style>
 .thumbnail {
   border-radius: 5px;
-  width: 400px;
+  width: 300px;
   height: auto;
+  cursor: zoom-in;
+}
+
+.lightbox-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+  cursor: zoom-out;
+}
+
+.lightbox-overlay.active {
+  display: flex;
+}
+
+.lightbox-overlay img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
 }
 </style>
 
-<p>THINGS I MADE</p>
+<h2 id="independent-projects">Independent projects</h2>
+
+<hr />
+<h3 id="phone-as-webcam-mount-for-any-monitor-size">Phone-as-webcam mount for any monitor size</h3>
+<p>Most smartphones can double as a webcam for video conferencing, which gives excellent video quality and eliminates the need for more peripherals. I designed a mount for an iPhone that could interface with a variety of monitors thanks to an adjustable leg.</p>
+
+<p><img src="./images/Projects/image1.jpeg" alt="PhoneHolder2" class="thumbnail" onclick="openLightbox(this.src)" />
+<img src="./images/Projects/IMG_1965.jpeg" alt="Phoneholder3" class="thumbnail" onclick="openLightbox(this.src)" />
+<img src="./images/Projects/image0.jpeg" alt="Phoneholder1" class="thumbnail" onclick="openLightbox(this.src)" /></p>
+
+<h3 id="hemispherical-speaker-housing">Hemispherical speaker housing</h3>
+<p>A local connection I had needed to repair a set of unusually-shaped speaker housings, which essentially use a piece of fabric stretched over a colander-like structure to cover the actual speaker drivers. I designed new structures that could be easily printed using my prusa mini while still retaining the original shape.</p>
+
+<p><img src="./images/Projects/20210101_233548.jpg" alt="Speakermount3" class="thumbnail" onclick="openLightbox(this.src)" />
+<img src="./images/Projects/IMG_2931.JPEG" alt="SpeakerMount" class="thumbnail" onclick="openLightbox(this.src)" />
+<img src="./images/Projects/IMG_2939.JPEG" alt="Speakermount3" class="thumbnail" onclick="openLightbox(this.src)" />
+<img src="./images/Projects/IMG_2976.JPEG" alt="Speakermount2" class="thumbnail" onclick="openLightbox(this.src)" /></p>
+
+<h3 id="misc-projects">Misc projects</h3>
+
+<p>A custom 3D printed phone case:
+<img src="./images/Projects/IMG_0794.JPEG" alt="Phonecase" class="thumbnail" onclick="openLightbox(this.src)" /></p>
+
+<p>A 3D printed orbital gearbox, to understand how 3D printing tolerances affect gear mesh &amp; tooth profiles:</p>
+
+<p><img src="./images/Projects/IMG_2748.JPEG" alt="Speakermount3" class="thumbnail" onclick="openLightbox(this.src)" />
+<img src="./images/Projects/IMG_2749.JPEG" alt="Speakermount3" class="thumbnail" onclick="openLightbox(this.src)" /></p>
+
+<div class="lightbox-overlay" id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="Enlarged image" />
+</div>
+
+<script>
+function openLightbox(src) {
+  document.getElementById('lightbox-img').src = src;
+  document.getElementById('lightbox').classList.add('active');
+}
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('active');
+}
+</script>
 
 
 
@@ -75,7 +140,7 @@
         
         <p>This project is maintained by <a href="https://github.com/tbarnescole">tbarnescole</a></p>
         
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <!-- <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p> -->
       </footer>
     </div>
     <script src="/assets/js/scale.fix.js"></script>
