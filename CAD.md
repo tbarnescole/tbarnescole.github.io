@@ -2,11 +2,9 @@
 layout: default
 title: Home
 description: |
-    Over my time in high school robotics, I competed in a number of 3rd party CAD competitions for FIRST Robotics Competition-style robots. Apparently designing robots 6 months out of the year wasn't enough. 
+    Over my time in high school robotics, I competed in a number of 3rd party CAD competitions for FIRST Robotics Competition-style robots.
     
-    I worked with 1-3 other people in each competition, with each robot designed over the course of 48 hours. 
-    
-    The first three systems were designed in Solidworks and rendered in Solidworks Visualize, with the last system designed in Onshape and rendered in Solidworks Visualize.
+    I worked with 1-3 other people in each competition, with each robot designed over the course of 48 hours. I used Solidworks and later Onshape for the design, and Solidworks Visualize for the renders.
 
 ---
 <style>

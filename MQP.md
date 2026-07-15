@@ -2,7 +2,7 @@
 layout: default
 title: Home
 description: |
-    This is my senior year capstone project at WPI (known as the MQP), completed over my final year of school. I designed and manufactured all of the custom components, along with writing a large amount of the control software.
+    This is my senior year capstone project at WPI, completed over my final year of school. I designed and manufactured all of the custom components, along with writing a large amount of the control software.
 
     Check out the system in action in **[this video!](https://www.youtube.com/watch?v=hjOqd18YFxU)**
 

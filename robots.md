@@ -65,6 +65,23 @@ This robot was was designed to pick up dodgeballs using a roller system and shoo
 <img src="./images/Real robots/IMG_1826.JPEG" alt="FRC3.1" class="thumbnail" onclick="openLightbox(this.src)">
 <img src="./images/Real robots/IMG_1783.JPEG" alt="FRC3" class="thumbnail" onclick="openLightbox(this.src)">
 
+## FIRST Tech Challenge
+
+* * *
+
+### 2018-19 Season
+
+This robot was designed to sort and pick up small cubes and wiffle balls, then deposite them backwards using its telescoping and rotating arm.
+
+<img src="./images/Real robots/IMG_5061.JPG" alt="FTC2" class="thumbnail" onclick="openLightbox(this.src)">
+<img src="./images/Real robots/IMG_5352.JPEG" alt="FTC2.1" class="thumbnail" onclick="openLightbox(this.src)">
+
+### 2019-20 Season
+
+This robot was designed to pick up and stack yellow lego-piece-like blocks using a multi-stage elevator. the majority of components on this system were 3D printed, allowing for a highly integrated design with less manufacturing overhead.
+
+<img src="./images/Real robots/IMG_1440.JPEG" alt="FTC1" class="thumbnail" onclick="openLightbox(this.src)">
+<img src="./images/Real robots/IMG_1433.JPEG" alt="FTC1.1" class="thumbnail" onclick="openLightbox(this.src)">
 
 <div class="lightbox-overlay" id="lightbox" onclick="closeLightbox()">
   <img id="lightbox-img" src="" alt="Enlarged image">
