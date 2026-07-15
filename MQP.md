@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Capstone project
 description: |
     This is my senior year capstone project at WPI, completed over my final year of school. I designed and manufactured all of the custom components, along with writing a large amount of the control software.
 

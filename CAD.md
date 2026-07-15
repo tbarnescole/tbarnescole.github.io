@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: CAD fun
 description: |
     Over my time in high school robotics, I competed in a number of 3rd party CAD competitions for FIRST Robotics Competition-style robots.
     

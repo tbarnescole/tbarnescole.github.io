@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Misc Projects
 description: |
     I have done a variety of less-structured design work, including several personal projects and ideas I have worked on, in addition to some freelance work.
 

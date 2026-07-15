@@ -1,6 +1,6 @@
 ---
 layout: default
-title: default
+title: I design robots
 description: |
   Hi! I'm Theo, a recent WPI graduate with a degree in Robotics Engineering. These are the projects I have worked on over many years of mechanical and robotics design.
 ---
